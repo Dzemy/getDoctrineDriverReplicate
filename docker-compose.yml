@@ -88,7 +88,7 @@ services:
         networks:
             - sail
     mongodb:
-        image: mongo
+        image: mongo:6.0.1
         restart: always
         expose:
             - 27017
